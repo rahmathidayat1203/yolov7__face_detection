@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['tony-stark']
+
+roboflow:
+  workspace: project-w6bcp
+  project: tony-stark
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-w6bcp/tony-stark/dataset/1
